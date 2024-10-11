@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        #noButton {
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Would you go on a date with me?</h1>
+    
+    <div>
+        <button id="yesButton" onclick="sayYes()">Yes</button>
+        <button id="noButton" disabled>No</button>
+    </div>
+
+    <script>
+        function sayYes() {
+            alert("I knew you would say yes! Let's meet for a coffee at Starbucks and get to know each other.");
+        }
+    </script>
+
+</body>
+</html>
